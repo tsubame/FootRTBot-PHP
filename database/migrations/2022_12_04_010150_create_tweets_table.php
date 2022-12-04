@@ -6,8 +6,9 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
+
     /**
-     * Run the migrations.
+     * テーブル生成用マイグレーション
      *
      * @return void
      */
@@ -36,7 +37,7 @@ return new class extends Migration
     }
 
     /**
-     * Reverse the migrations.
+     * テーブル削除用マイグレーション
      *
      * @return void
      */
