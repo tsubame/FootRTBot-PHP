@@ -8,7 +8,8 @@ https://twitter.com/foot_rt_bot
 <pre>
     app/ 
         Consts/
-            Constants.php … 定数定義用
+            Constants.php … 各Twitterアカウントで使い回せる定数定義用
+            appConfig.php … 各Twitterアカウント固有の設定定義用
         Models/
             Tweet.php … ORM用ツイートデータ
             TwitterAPIAccessor.php … TwitterAPI操作用ビジネスロジック
