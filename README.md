@@ -2,6 +2,7 @@
 PHP Laravellで作成。
 
 <h4>フォルダ構成</h4>
+<pre>
     app/ 
         Consts/
             Constants.php … 定数定義用
@@ -11,4 +12,5 @@ PHP Laravellで作成。
         Http/
             Controllers/
                 TweetController.php … Tweet関連のコントローラクラス
+</pre>
         
