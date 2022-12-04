@@ -14,8 +14,11 @@ use App\Http\Controllers\TweetController;
 |
 */
 
+// ルーティング　タイムラインからRTを実施
 Route::get('/timeline', [TweetController::class, 'rtFromTimeLine']);
 
+// ルーティング 検索キーワードからRTを実施
 Route::get('/search', [TweetController::class, 'rtFromSearch']);
 
+// ルーティング トレンドの関連キーワードからRTを実施
 Route::get('/trend', [TweetController::class, 'rtFromTrend']);
