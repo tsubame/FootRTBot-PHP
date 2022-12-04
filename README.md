@@ -1,5 +1,8 @@
-特定ジャンルでバズっているツイートを自動的にRTするBot。
+特定ジャンルでバズっているツイートを自動的にRTするTwitterBot。
 PHP Laravellで作成。
+
+<h4>アカウント</h4>
+https://twitter.com/foot_rt_bot
 
 <h4>フォルダ構成</h4>
 <pre>
